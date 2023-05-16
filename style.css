@@ -57,6 +57,7 @@
     width: 90%;
     height: 60px;
     padding: 8px 20px;
+    z-index: 30;
 }
 .vision-bg{
     background-image: url('./images/vere.og.png');
