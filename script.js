@@ -1,13 +1,4 @@
-function outerFunction() {
-    let outerVar = "Hello";
-  
-    function innerFunction() {
-      let innerVar = "World";
-      console.log(outerVar + " " + innerVar);
-    }
-    
-    innerFunction();
+function sendMsg(){
+    var message = document.getElementById('msg').value;
+    window.open("https://api.whatsapp.com/send?phone=+919497830078&text="+message);
   }
-  
-  outerFunction();
-  
